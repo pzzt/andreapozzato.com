@@ -5,10 +5,7 @@ theme: ["PaperMod"]
 
 ignoreLogs: warning-goldmark-raw-html
 outputs:
-  home:
-    - HTML 
-    - RSS 
-    - JSON 
+  home: ["HTML","RSS","JSON"] 
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -143,10 +140,14 @@ menu:
       name: archives
       url: /archives/
       weight: 20
+    - identifier: Search
+      name: 🔍
+      url: /search/
+      weight: 30
     - identifier: brainb.it
       name: brainb.it
       url: https://brainb.it
-      weight: 30
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
