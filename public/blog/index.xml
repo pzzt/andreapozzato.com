@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogs on Andrea Pozzato</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blogs on Andrea Pozzato</description>
+    <image>
+      <title>Andrea Pozzato</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.139.5</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Dec 2024 16:45:20 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come pulire la cartella SoftwareDistribution e ripristinare gli aggiornamenti di Windows</title>
+      <link>http://localhost:1313/blog/come-pulire-la-cartella-softwaredistribution/</link>
+      <pubDate>Tue, 17 Dec 2024 16:45:20 +0100</pubDate>
+      <guid>http://localhost:1313/blog/come-pulire-la-cartella-softwaredistribution/</guid>
+      <description>&lt;h3 id=&#34;stop-del-servizio-windows-update-wuauserv&#34;&gt;Stop del servizio Windows Update (wuauserv)&lt;/h3&gt;
+&lt;p&gt;Apri il &lt;strong&gt;Prompt dei comandi con privilegi elevati&lt;/strong&gt; (clicca con il tasto destro su &amp;ldquo;Prompt dei comandi&amp;rdquo; e seleziona &amp;ldquo;Esegui come amministratore&amp;rdquo;).&lt;/p&gt;
+&lt;p&gt;Esegui il comando:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;net&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;stop&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;wuauserv&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;pulizia-della-cartella-download-di-softwaredistribution&#34;&gt;Pulizia della cartella Download di SoftwareDistribution&lt;/h3&gt;
+&lt;p&gt;Vai manualmente alla seguente cartella e svuota il suo contenuto:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;C:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WINDOWS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SoftwareDistribution&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Download&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;avvio-del-servizio-windows-update&#34;&gt;Avvio del servizio Windows Update&lt;/h3&gt;
+&lt;p&gt;Una volta pulita la cartella, esegui il comando seguente per riavviare il servizio Windows Update:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;net&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;start &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;wuauserv&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;verifica&#34;&gt;Verifica&lt;/h3&gt;
+&lt;p&gt;Dopo che il servizio è stato riavviato, alcune cartelle potrebbero essere ricreate automaticamente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exchange Online: Come mettere un dominio in whitelist o in blacklist</title>
+      <link>http://localhost:1313/blog/exchange-online-whitelist-blacklist-domini/</link>
+      <pubDate>Mon, 16 Dec 2024 23:45:20 +0100</pubDate>
+      <guid>http://localhost:1313/blog/exchange-online-whitelist-blacklist-domini/</guid>
+      <description>Con questi semplici passaggi, puoi facilmente gestire i domini e i mittenti consentiti o bloccati su Exchange Online.</description>
+    </item>
+    <item>
+      <title>Partiamo</title>
+      <link>http://localhost:1313/blog/partiamo/</link>
+      <pubDate>Sun, 15 Dec 2024 20:50:22 +0100</pubDate>
+      <guid>http://localhost:1313/blog/partiamo/</guid>
+      <description>&lt;p&gt;Ho deciso di creare questo blog semplicemente perché avevo bisogno di uno spazio dove raccogliere idee, riflessioni e tutto ciò che imparerò lungo il cammino. Non so cosa ne uscirà, ma sono curioso di scoprire dove mi porterà questa avventura.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;random image&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/partiamo/primo.jpeg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;note&#34;&gt;Note:&lt;/h2&gt;
+&lt;p&gt;nessuna.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
