@@ -1,35 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Windows on Andrea Pozzato</title>
-    <link>http://localhost:1313/tags/windows/</link>
-    <description>Recent content in Windows on Andrea Pozzato</description>
-    <image>
-      <title>Andrea Pozzato</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.139.5</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 17 Dec 2024 16:45:20 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Come pulire la cartella SoftwareDistribution e ripristinare gli aggiornamenti di Windows</title>
-      <link>http://localhost:1313/blog/come-pulire-la-cartella-softwaredistribution/</link>
-      <pubDate>Tue, 17 Dec 2024 16:45:20 +0100</pubDate>
-      <guid>http://localhost:1313/blog/come-pulire-la-cartella-softwaredistribution/</guid>
-      <description>&lt;h3 id=&#34;stop-del-servizio-windows-update-wuauserv&#34;&gt;Stop del servizio Windows Update (wuauserv)&lt;/h3&gt;
-&lt;p&gt;Apri il &lt;strong&gt;Prompt dei comandi con privilegi elevati&lt;/strong&gt; (clicca con il tasto destro su &amp;ldquo;Prompt dei comandi&amp;rdquo; e seleziona &amp;ldquo;Esegui come amministratore&amp;rdquo;).&lt;/p&gt;
-&lt;p&gt;Esegui il comando:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;net&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;stop&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;wuauserv&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;pulizia-della-cartella-download-di-softwaredistribution&#34;&gt;Pulizia della cartella Download di SoftwareDistribution&lt;/h3&gt;
-&lt;p&gt;Vai manualmente alla seguente cartella e svuota il suo contenuto:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;C:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WINDOWS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SoftwareDistribution&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Download&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;avvio-del-servizio-windows-update&#34;&gt;Avvio del servizio Windows Update&lt;/h3&gt;
-&lt;p&gt;Una volta pulita la cartella, esegui il comando seguente per riavviare il servizio Windows Update:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;net&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;start &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;wuauserv&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;verifica&#34;&gt;Verifica&lt;/h3&gt;
-&lt;p&gt;Dopo che il servizio è stato riavviato, alcune cartelle potrebbero essere ricreate automaticamente.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Windows on Andrea Pozzato</title><link>https://www.andreapozzato.com/tags/windows/</link><description>Recent content in Windows on Andrea Pozzato</description><image><title>Andrea Pozzato</title><url>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- 0.139.5</generator><language>en</language><lastBuildDate>Tue, 17 Dec 2024 16:45:20 +0100</lastBuildDate><atom:link href="https://www.andreapozzato.com/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Come pulire la cartella SoftwareDistribution e ripristinare gli aggiornamenti di Windows</title><link>https://www.andreapozzato.com/blog/come-pulire-la-cartella-softwaredistribution/</link><pubDate>Tue, 17 Dec 2024 16:45:20 +0100</pubDate><guid>https://www.andreapozzato.com/blog/come-pulire-la-cartella-softwaredistribution/</guid><description>&lt;h3 id="stop-del-servizio-windows-update-wuauserv">Stop del servizio Windows Update (wuauserv)&lt;/h3>
+&lt;p>Apri il &lt;strong>Prompt dei comandi con privilegi elevati&lt;/strong> (clicca con il tasto destro su &amp;ldquo;Prompt dei comandi&amp;rdquo; e seleziona &amp;ldquo;Esegui come amministratore&amp;rdquo;).&lt;/p>
+&lt;p>Esegui il comando:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="n">net&lt;/span> &lt;span class="n">stop&lt;/span> &lt;span class="n">wuauserv&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="pulizia-della-cartella-download-di-softwaredistribution">Pulizia della cartella Download di SoftwareDistribution&lt;/h3>
+&lt;p>Vai manualmente alla seguente cartella e svuota il suo contenuto:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">WINDOWS&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">SoftwareDistribution&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">Download&lt;/span>&lt;span class="p">\&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="avvio-del-servizio-windows-update">Avvio del servizio Windows Update&lt;/h3>
+&lt;p>Una volta pulita la cartella, esegui il comando seguente per riavviare il servizio Windows Update:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="n">net&lt;/span> &lt;span class="nb">start &lt;/span>&lt;span class="n">wuauserv&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="verifica">Verifica&lt;/h3>
+&lt;p>Dopo che il servizio è stato riavviato, alcune cartelle potrebbero essere ricreate automaticamente.&lt;/p></description></item></channel></rss>
