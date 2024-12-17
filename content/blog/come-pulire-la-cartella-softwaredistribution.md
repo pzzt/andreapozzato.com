@@ -41,19 +41,19 @@ editPost:
    Apri il **Prompt dei comandi con privilegi elevati** (clicca con il tasto destro su "Prompt dei comandi" e seleziona "Esegui come amministratore").  
 
 Esegui il comando:
-~~~powershell
+~~~cmd
 net stop wuauserv
 ~~~
 
 ### Pulizia della cartella Download di SoftwareDistribution
 Vai manualmente alla seguente cartella e svuota il suo contenuto:
-~~~powershell
+~~~cmd
 C:\WINDOWS\SoftwareDistribution\Download\
 ~~~
 
 ### Avvio del servizio Windows Update
 Una volta pulita la cartella, esegui il comando seguente per riavviare il servizio Windows Update:
-~~~powershell
+~~~cmd
 net start wuauserv
 ~~~
 
