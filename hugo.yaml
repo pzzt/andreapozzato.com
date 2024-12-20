@@ -20,8 +20,8 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Andrea Pozzato"
   description: "Zettelkästen di Andrea"
-  keywords: [Blog, Portfolio]
-  author: Andrea
+  keywords: [Blog, Portfolio, Zettelkasten, Second Brain, Linux, Microsoft365,]
+  author: Andrea Pozzato 
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "02/01/2006"
