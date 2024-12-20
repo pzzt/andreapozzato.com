@@ -21,7 +21,7 @@ params:
   title: "Andrea Pozzato"
   description: "Zettelkästen di Andrea"
   keywords: [Blog, Portfolio]
-  author: Me
+  author: Andrea
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "02/01/2006"
