@@ -49,4 +49,3 @@ mount -t ios <src> <dst>
 Con questa procedura, puoi gestire facilmente i tuoi file su iSH.
 ## Note:
 
-
