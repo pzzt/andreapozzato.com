@@ -26,9 +26,9 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-#cover:
-#    image: "img/img-unsplash-wmyE5IBiOmo.jpeg" # image path/url
-#    alt: "Abstract image" # alt text
+cover:
+    image: "img/aig003-c4.png" # image path/url
+    alt: "Abstract image" # alt text
 #    caption: "<text>" # display caption under cover
 #    relative: false # when using page bundles set this to true
 #    hidden: false # only hide on current single page

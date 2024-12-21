@@ -1,1 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tags on Andrea Pozzato</title><link>https://www.andreapozzato.com/tags/</link><description>Recent content in Tags on Andrea Pozzato</description><image><title>Andrea Pozzato</title><url>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- 0.140.0</generator><language>en</language><lastBuildDate>Fri, 20 Dec 2024 15:06:11 +0100</lastBuildDate><atom:link href="https://www.andreapozzato.com/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Arch Linux</title><link>https://www.andreapozzato.com/tags/arch-linux/</link><pubDate>Fri, 20 Dec 2024 15:06:11 +0100</pubDate><guid>https://www.andreapozzato.com/tags/arch-linux/</guid><description/></item><item><title>Command-Line</title><link>https://www.andreapozzato.com/tags/command-line/</link><pubDate>Fri, 20 Dec 2024 15:06:11 +0100</pubDate><guid>https://www.andreapozzato.com/tags/command-line/</guid><description/></item><item><title>Linux</title><link>https://www.andreapozzato.com/tags/linux/</link><pubDate>Fri, 20 Dec 2024 15:06:11 +0100</pubDate><guid>https://www.andreapozzato.com/tags/linux/</guid><description/></item><item><title>Windows</title><link>https://www.andreapozzato.com/tags/windows/</link><pubDate>Tue, 17 Dec 2024 16:45:20 +0100</pubDate><guid>https://www.andreapozzato.com/tags/windows/</guid><description/></item><item><title>ExchangeOnline</title><link>https://www.andreapozzato.com/tags/exchangeonline/</link><pubDate>Mon, 16 Dec 2024 23:45:20 +0100</pubDate><guid>https://www.andreapozzato.com/tags/exchangeonline/</guid><description/></item><item><title>Microsoft365</title><link>https://www.andreapozzato.com/tags/microsoft365/</link><pubDate>Mon, 16 Dec 2024 23:45:20 +0100</pubDate><guid>https://www.andreapozzato.com/tags/microsoft365/</guid><description/></item><item><title>Spam</title><link>https://www.andreapozzato.com/tags/spam/</link><pubDate>Mon, 16 Dec 2024 23:45:20 +0100</pubDate><guid>https://www.andreapozzato.com/tags/spam/</guid><description/></item><item><title>Personale</title><link>https://www.andreapozzato.com/tags/personale/</link><pubDate>Sun, 15 Dec 2024 20:50:22 +0100</pubDate><guid>https://www.andreapozzato.com/tags/personale/</guid><description/></item><item><title>Primo</title><link>https://www.andreapozzato.com/tags/primo/</link><pubDate>Sun, 15 Dec 2024 20:50:22 +0100</pubDate><guid>https://www.andreapozzato.com/tags/primo/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Andrea Pozzato</title>
+    <link>https://www.andreapozzato.com/tags/</link>
+    <description>Recent content in Tags on Andrea Pozzato</description>
+    <image>
+      <title>Andrea Pozzato</title>
+      <url>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.140.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Dec 2024 15:06:11 +0100</lastBuildDate>
+    <atom:link href="https://www.andreapozzato.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch Linux</title>
+      <link>https://www.andreapozzato.com/tags/arch-linux/</link>
+      <pubDate>Fri, 20 Dec 2024 15:06:11 +0100</pubDate>
+      <guid>https://www.andreapozzato.com/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Command-Line</title>
+      <link>https://www.andreapozzato.com/tags/command-line/</link>
+      <pubDate>Fri, 20 Dec 2024 15:06:11 +0100</pubDate>
+      <guid>https://www.andreapozzato.com/tags/command-line/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://www.andreapozzato.com/tags/linux/</link>
+      <pubDate>Fri, 20 Dec 2024 15:06:11 +0100</pubDate>
+      <guid>https://www.andreapozzato.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://www.andreapozzato.com/tags/windows/</link>
+      <pubDate>Tue, 17 Dec 2024 16:45:20 +0100</pubDate>
+      <guid>https://www.andreapozzato.com/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ExchangeOnline</title>
+      <link>https://www.andreapozzato.com/tags/exchangeonline/</link>
+      <pubDate>Mon, 16 Dec 2024 23:45:20 +0100</pubDate>
+      <guid>https://www.andreapozzato.com/tags/exchangeonline/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft365</title>
+      <link>https://www.andreapozzato.com/tags/microsoft365/</link>
+      <pubDate>Mon, 16 Dec 2024 23:45:20 +0100</pubDate>
+      <guid>https://www.andreapozzato.com/tags/microsoft365/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spam</title>
+      <link>https://www.andreapozzato.com/tags/spam/</link>
+      <pubDate>Mon, 16 Dec 2024 23:45:20 +0100</pubDate>
+      <guid>https://www.andreapozzato.com/tags/spam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personale</title>
+      <link>https://www.andreapozzato.com/tags/personale/</link>
+      <pubDate>Sun, 15 Dec 2024 20:50:22 +0100</pubDate>
+      <guid>https://www.andreapozzato.com/tags/personale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Primo</title>
+      <link>https://www.andreapozzato.com/tags/primo/</link>
+      <pubDate>Sun, 15 Dec 2024 20:50:22 +0100</pubDate>
+      <guid>https://www.andreapozzato.com/tags/primo/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
