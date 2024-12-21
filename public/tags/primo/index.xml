@@ -1,27 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Primo on Andrea Pozzato</title>
-    <link>http://localhost:1313/tags/primo/</link>
-    <description>Recent content in Primo on Andrea Pozzato</description>
-    <image>
-      <title>Andrea Pozzato</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.140.0</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 15 Dec 2024 20:50:22 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/primo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Partiamo</title>
-      <link>http://localhost:1313/blog/partiamo/</link>
-      <pubDate>Sun, 15 Dec 2024 20:50:22 +0100</pubDate>
-      <guid>http://localhost:1313/blog/partiamo/</guid>
-      <description>&lt;p&gt;Ho deciso di creare questo blog semplicemente perché avevo bisogno di uno spazio dove raccogliere idee, riflessioni e tutto ciò che imparerò lungo il cammino. Non so cosa ne uscirà, ma sono curioso di scoprire dove mi porterà questa avventura.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;random image&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/partiamo/primo.jpeg&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;note&#34;&gt;Note:&lt;/h2&gt;
-&lt;p&gt;nessuna.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Primo on Andrea Pozzato</title><link>https://www.andreapozzato.com/tags/primo/</link><description>Recent content in Primo on Andrea Pozzato</description><image><title>Andrea Pozzato</title><url>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- 0.140.0</generator><language>en</language><lastBuildDate>Sun, 15 Dec 2024 20:50:22 +0100</lastBuildDate><atom:link href="https://www.andreapozzato.com/tags/primo/index.xml" rel="self" type="application/rss+xml"/><item><title>Partiamo</title><link>https://www.andreapozzato.com/blog/partiamo/</link><pubDate>Sun, 15 Dec 2024 20:50:22 +0100</pubDate><guid>https://www.andreapozzato.com/blog/partiamo/</guid><description>&lt;p>Ho deciso di creare questo blog semplicemente perché avevo bisogno di uno spazio dove raccogliere idee, riflessioni e tutto ciò che imparerò lungo il cammino. Non so cosa ne uscirà, ma sono curioso di scoprire dove mi porterà questa avventura.&lt;/p>
+&lt;p>&lt;img alt="random image" loading="lazy" src="https://www.andreapozzato.com/blog/partiamo/primo.jpeg">&lt;/p>
+&lt;h2 id="note">Note:&lt;/h2>
+&lt;p>nessuna.&lt;/p></description></item></channel></rss>
