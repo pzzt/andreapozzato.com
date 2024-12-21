@@ -27,12 +27,12 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-#cover:
-#   image: "<image path/url>" # image path/url
-#    alt: "<alt text>" # alt text
-#    caption: "<text>" # display caption under cover
-#    relative: false # when using page bundles set this to true
-#    hidden: true # only hide on current single page
+cover:
+    image: "img/risolvere-errore-db-1-dither.png" # image path/url
+    alt: "Screenshot: there my be another Pacman instance running. Waiting" # alt text
+    caption: "" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: false # only hide on current single page
 editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
