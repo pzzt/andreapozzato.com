@@ -20,7 +20,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Andrea Pozzato"
   description: "Zettelkästen di Andrea"
-  keywords: [Blog, Portfolio, Zettelkasten, Second Brain, Linux, Microsoft365,]
+  keywords: [Blog, Portfolio, Zettelkasten, Second Brain, Linux, Microsoft365]
   author: Andrea Pozzato 
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -80,7 +80,9 @@ params:
     Content: Sono Andrea, questo non è propriamente un blog ma piuttosto un blocco degli appunti.
 
   socialIcons:
-    # -name: rss
+    - name: email 
+      url: mailto:hello@andreapozzato.com
+    # url: www.andreapozzato.com/blog/index.xml
     #  url: https://www.andreapozzato.com/index.xml
       # - name: linkedin
       # url: https://www.linkedin.com/in/andreapozzato/
