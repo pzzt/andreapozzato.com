@@ -1,48 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Linux on Andrea Pozzato</title>
-    <link>https://www.andreapozzato.com/tags/linux/</link>
-    <description>Recent content in Linux on Andrea Pozzato</description>
-    <image>
-      <title>Andrea Pozzato</title>
-      <url>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.140.0</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 20 Dec 2024 15:06:11 +0100</lastBuildDate>
-    <atom:link href="https://www.andreapozzato.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Risolvere l&#39;errore db.lck durante l&#39;aggiornamento di Arch Linux</title>
-      <link>https://www.andreapozzato.com/blog/risolvere-errore-db-lck-arch-linux/</link>
-      <pubDate>Fri, 20 Dec 2024 15:06:11 +0100</pubDate>
-      <guid>https://www.andreapozzato.com/blog/risolvere-errore-db-lck-arch-linux/</guid>
-      <description>&lt;p&gt;Se usi Arch Linux sai è fondamentale se non obbligatorio aggiornarlo regolarmente per &lt;em&gt;garantirne&lt;/em&gt; il corretto funzionamento. Tuttavia Durante l&amp;rsquo;update con &lt;a href=&#34;https://wiki.archlinux.org/title/AUR_helpers&#34;&gt;yay&lt;/a&gt; potresti imbatterti nel seguente avviso:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;❯   yay
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; -&amp;gt; /var/lib/pacman/db.lck is present.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; -&amp;gt; There may be another Pacman instance running. Waiting...
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;come-risolvere&#34;&gt;Come Risolvere&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Interrompi l&amp;rsquo;operazione corrente
-Premi &lt;strong&gt;Ctrl+C&lt;/strong&gt; per fermare l&amp;rsquo;esecuzione di yay.&lt;/li&gt;
-&lt;li&gt;Verifica che non ci siano processi di &lt;strong&gt;pacman&lt;/strong&gt; in esecuzione:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ps aux &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep pacman
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Rinomina o elimina il file di lock
-Puoi scegliere di rinominare il file per conservarne una copia o eliminarlo. Segui uno dei comandi seguenti:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Per rinnominare il file:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo mv /var/lib/pacman/db.lck /var/lib/pacman/db.lck.bak
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Per eliminare il file:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo rm /var/lib/pacman/db.lck
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;perché-il-file-dblck-è-importante&#34;&gt;Perché il file &amp;ldquo;db.lck&amp;rdquo; è importante?&lt;/h2&gt;
-&lt;p&gt;Il file &lt;strong&gt;db.lck&lt;/strong&gt; serve a evitare conflitti quando più istanze di pacman accedono al database dei pacchetti. Se riscontri l&amp;rsquo;errore, assicurati di non interrompere bruscamente i futuri aggiornamenti per evitare problemi simili.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Linux on Andrea Pozzato</title><link>https://www.andreapozzato.com/tags/linux/</link><description>Recent content in Linux on Andrea Pozzato</description><image><title>Andrea Pozzato</title><url>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url><link>https://www.andreapozzato.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link></image><generator>Hugo -- 0.140.0</generator><language>en</language><lastBuildDate>Fri, 20 Dec 2024 15:06:11 +0100</lastBuildDate><atom:link href="https://www.andreapozzato.com/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Risolvere l'errore db.lck durante l'aggiornamento di Arch Linux</title><link>https://www.andreapozzato.com/blog/risolvere-errore-db-lck-arch-linux/</link><pubDate>Fri, 20 Dec 2024 15:06:11 +0100</pubDate><guid>https://www.andreapozzato.com/blog/risolvere-errore-db-lck-arch-linux/</guid><description>&lt;p>Se usi Arch Linux sai è fondamentale se non obbligatorio aggiornarlo regolarmente per &lt;em>garantirne&lt;/em> il corretto funzionamento. Tuttavia Durante l&amp;rsquo;update con &lt;a href="https://wiki.archlinux.org/title/AUR_helpers">yay&lt;/a> potresti imbatterti nel seguente avviso:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-zsh" data-lang="zsh">&lt;span class="line">&lt;span class="cl">❯ yay
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> -&amp;gt; /var/lib/pacman/db.lck is present.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> -&amp;gt; There may be another Pacman instance running. Waiting...
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="come-risolvere">Come Risolvere&lt;/h2>
+&lt;ol>
+&lt;li>Interrompi l&amp;rsquo;operazione corrente
+Premi &lt;strong>Ctrl+C&lt;/strong> per fermare l&amp;rsquo;esecuzione di yay.&lt;/li>
+&lt;li>Verifica che non ci siano processi di &lt;strong>pacman&lt;/strong> in esecuzione:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-zsh" data-lang="zsh">&lt;span class="line">&lt;span class="cl">ps aux &lt;span class="p">|&lt;/span> grep pacman
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Rinomina o elimina il file di lock
+Puoi scegliere di rinominare il file per conservarne una copia o eliminarlo. Segui uno dei comandi seguenti:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Per rinnominare il file:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-zsh" data-lang="zsh">&lt;span class="line">&lt;span class="cl">sudo mv /var/lib/pacman/db.lck /var/lib/pacman/db.lck.bak
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Per eliminare il file:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-zsh" data-lang="zsh">&lt;span class="line">&lt;span class="cl">sudo rm /var/lib/pacman/db.lck
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="perché-il-file-dblck-è-importante">Perché il file &amp;ldquo;db.lck&amp;rdquo; è importante?&lt;/h2>
+&lt;p>Il file &lt;strong>db.lck&lt;/strong> serve a evitare conflitti quando più istanze di pacman accedono al database dei pacchetti. Se riscontri l&amp;rsquo;errore, assicurati di non interrompere bruscamente i futuri aggiornamenti per evitare problemi simili.&lt;/p></description></item></channel></rss>
