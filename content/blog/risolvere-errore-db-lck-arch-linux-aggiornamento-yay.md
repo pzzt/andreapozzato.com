@@ -15,7 +15,7 @@ draft: false
 hidemeta: false
 comments: false
 # description: "Desc Text."
-canonicalURL: "https://www.andreapozzato.com/blog/"
+canonicalURL: "https://www.andreapozzato.com/blog/risolvere-errore-db-lck-arch-linux-aggiornamento-yay"
 disableHLJS: false # to disable highlightjs
 disableShare: false
 disableHLJS: false

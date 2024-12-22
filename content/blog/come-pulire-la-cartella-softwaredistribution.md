@@ -14,7 +14,7 @@ draft: false
 hidemeta: false
 comments: false
 # description: "Desc Text."
-canonicalURL: "https://www.andreapozzato.com/blog"
+canonicalURL: "https://www.andreapozzato.com/blog/come-pulire-la-cartella-softwaredistribution"
 disableHLJS: false # to disable highlightjs
 disableShare: false
 disableHLJS: false

@@ -14,7 +14,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Con questi semplici passaggi, puoi facilmente gestire i domini e i mittenti consentiti o bloccati su Exchange Online."
-canonicalURL: "https://www.andreapozzato.com/blog/"
+canonicalURL: "https://www.andreapozzato.com/blog/exchange-online-whitelist-blacklist-dominexchange-online-whitelist-blacklist-domini"
 disableHLJS: false # to disable highlightjs
 disableShare: false
 disableHLJS: false
