@@ -1,10 +1,11 @@
 ---
 title:  '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: '{{ .Date }}'
+slug: ""
 # weight: 1
 # aliases: ["/first"]
 
-tags: ["first"]
+tags: [""]
 
 author: "Andrea"
 # author: ["Me", "You"] # multiple authors
@@ -33,7 +34,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/pzzt/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
