@@ -3,6 +3,9 @@
 /resources/_gen/
 .hugo_build.lock
 
+# Claude documentation files
+CLAUDE.md
+
 # OS generated files
 .DS_Store
 .DS_Store?
