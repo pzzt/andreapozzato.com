@@ -18,7 +18,7 @@ comments: false
 canonicalURL: "https://www.andreapozzato.com/blog/risolvere-errore-db-lck-arch-linux-aggiornamento-yay"
 disableHLJS: false # to disable highlightjs
 disableShare: false
-disableHLJS: false
+#disableHLJS: false
 hideSummary: false
 searchHidden: false
 ShowReadingTime: true
@@ -47,25 +47,34 @@ Se usi Arch Linux sai è fondamentale se non obbligatorio aggiornarlo regolarmen
 ~~~
 
 ## Come Risolvere
+
 1. Interrompi l'operazione corrente
 Premi **Ctrl+C** per fermare l'esecuzione di yay.
 2. Verifica che non ci siano processi di **pacman** in esecuzione:
+
 ~~~zsh
 ps aux | grep pacman
 ~~~
+
 3. Rinomina o elimina il file di lock
 Puoi scegliere di rinominare il file per conservarne una copia o eliminarlo. Segui uno dei comandi seguenti:
+
 - Per rinnominare il file:
+
 ~~~zsh
 sudo mv /var/lib/pacman/db.lck /var/lib/pacman/db.lck.bak
 ~~~
+
 - Per eliminare il file:
+
 ~~~zsh
 sudo rm /var/lib/pacman/db.lck
 ~~~
 
 ## Perché il file "db.lck" è importante?
+
 Il file **db.lck** serve a evitare conflitti quando più istanze di pacman accedono al database dei pacchetti. Se riscontri l'errore, assicurati di non interrompere bruscamente i futuri aggiornamenti per evitare problemi simili.
 
 ## Note
+
 Se questo problema persiste o riscontri difficoltà aggiuntive, considera di consultare la [wiki di Arch Linux](https://wiki.archlinux.org/title/Main_page) o di contattarmi sui miei social.

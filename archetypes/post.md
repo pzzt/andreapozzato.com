@@ -18,7 +18,6 @@ comments: false
 canonicalURL: "https://www.andreapozzato.com/blog/"
 disableHLJS: false # to disable highlightjs
 disableShare: false
-disableHLJS: false
 hideSummary: false
 searchHidden: false
 ShowReadingTime: true
@@ -39,5 +38,4 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-## Note:
-
+## Note

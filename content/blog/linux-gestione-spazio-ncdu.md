@@ -18,7 +18,7 @@ comments: false
 canonicalURL: "https://www.andreapozzato.com/blog/gestione-spazio-linux-ncdu"
 disableHLJS: false # to disable highlightjs
 disableShare: false
-disableHLJS: false
+# disableHLJS: false
 hideSummary: false
 searchHidden: false
 ShowReadingTime: true
@@ -47,16 +47,19 @@ Personalmente, lo utilizzo per tenere sotto controllo le cartelle dei log e quel
 ## Come si installa?
 
 Arch:
+
 ~~~bash
 sudo pacman -S ncdu
 ~~~
 
 Debian:
+
 ~~~bash
 sudo apt install ncdu
 ~~~
 
 Fedora:
+
 ~~~
 sudo yum install ncdu
 ~~~
@@ -64,30 +67,37 @@ sudo yum install ncdu
 ## Come si usa?
 
 Di base si usa richiamandolo e lui farà la scansione della cartella in cui vi trovate
+
 ~~~bash
 ncdu
 ~~~
 
 Potete passargli la cartella da scansionare con:
+
 ~~~bash
 ncdu [flag] [path/to/folder]
 ~~~
 
 Se non è già attivo di default uso il flag **-e** che attiva la visualizzazione di più informazioni
+
 ~~~bash
 ncdu -e /path/to/folder
 ~~~
 
 Si può esportare il json della scansione su stdout:
+
 ~~~bash
 ncdu -o-
 ~~~
+
 oppure
+
 ~~~bash
 ncdu -o file.json /path/to/folder
 ~~~
 
 Una volta finita la scansione uso spesso i seguenti tasti:
+
 |Tasto|Descrizione|
 |---|---|
 |g|Prendendolo più volte fa una rotazione tra percentuale, grafico, entrambi o niente.|
@@ -97,9 +107,11 @@ Una volta finita la scansione uso spesso i seguenti tasti:
 |r|Riscansione la cartella|
 
 Non starò qui a ricopiare il manuale del software quindi vi consiglio di darci un'occhiata:
+
 ~~~bash
 man ncdu
 ~~~
 
-## Note:
+## Note
+
 Sito dello sviluppatore: [https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu?ref=andreapozzato.com)

@@ -17,7 +17,7 @@ description: "Con questi semplici passaggi, puoi facilmente gestire i domini e i
 canonicalURL: "https://www.andreapozzato.com/blog/exchange-online-whitelist-blacklist-dominexchange-online-whitelist-blacklist-domini"
 disableHLJS: false # to disable highlightjs
 disableShare: false
-disableHLJS: false
+# disableHLJS: false
 hideSummary: false
 searchHidden: false
 ShowReadingTime: true

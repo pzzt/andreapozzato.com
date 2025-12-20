@@ -17,7 +17,7 @@ comments: false
 canonicalURL: "https://www.andreapozzato.com/blog/"
 disableHLJS: false # to disable highlightjs
 disableShare: false
-disableHLJS: false
+# disableHLJS: false
 hideSummary: false
 searchHidden: false
 ShowReadingTime: true
@@ -41,6 +41,6 @@ Ho deciso di creare questo blog semplicemente perché avevo bisogno di uno spazi
 
 ![random image](primo.jpeg)
 
-## Note:
-nessuna.
+## Note
 
+nessuna.

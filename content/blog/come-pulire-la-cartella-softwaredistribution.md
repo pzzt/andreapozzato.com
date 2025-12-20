@@ -17,7 +17,7 @@ comments: false
 canonicalURL: "https://www.andreapozzato.com/blog/come-pulire-la-cartella-softwaredistribution"
 disableHLJS: false # to disable highlightjs
 disableShare: false
-disableHLJS: false
+# disableHLJS: false
 hideSummary: false
 searchHidden: false
 ShowReadingTime: true
@@ -37,29 +37,36 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-### Stop del servizio Windows Update (wuauserv) 
+### Stop del servizio Windows Update (wuauserv)
+
    Apri il **Prompt dei comandi con privilegi elevati** (clicca con il tasto destro su "Prompt dei comandi" e seleziona "Esegui come amministratore").  
 
 Esegui il comando:
+
 ~~~cmd
 net stop wuauserv
 ~~~
 
 ### Pulizia della cartella Download di SoftwareDistribution
+
 Vai manualmente alla seguente cartella e svuota il suo contenuto:
+
 ~~~cmd
 C:\WINDOWS\SoftwareDistribution\Download\
 ~~~
 
 ### Avvio del servizio Windows Update
+
 Una volta pulita la cartella, esegui il comando seguente per riavviare il servizio Windows Update:
+
 ~~~cmd
 net start wuauserv
 ~~~
 
 ### Verifica
-Dopo che il servizio è stato riavviato, alcune cartelle potrebbero essere ricreate automaticamente. 
 
-## Note:
+Dopo che il servizio è stato riavviato, alcune cartelle potrebbero essere ricreate automaticamente.
+
+## Note
+
 Questi passaggi possono essere utili per risolvere problemi di spazio occupato dagli aggiornamenti di Windows.
-
