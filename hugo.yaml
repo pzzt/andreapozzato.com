@@ -80,7 +80,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Ciao! \U0001F44B"
-    Content: Sono Andrea, questo non è propriamente un blog ma piuttosto un blocco degli appunti.
+    Content: Sono Andrea, scrivo delle cose che imparo su Linux, Kubernetes, M365, Docker, Vim.
 
   socialIcons:
     - name: email
@@ -93,8 +93,8 @@ params:
     #  url: "https://instagram.com/pzzt"
     #- name: stackoverflow
     #url: "https://stackoverflow.com"
-    #- name: github
-    #  url: "https://github.com/pzzt"/
+    - name: github
+      url: "https://github.com/pzzt"
     #- name: telegram
     #   url: "https://"
 
