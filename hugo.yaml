@@ -80,15 +80,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Ciao! \U0001F44B"
-    Content: Sono Andrea, scrivo delle cose che imparo su Linux, Kubernetes, M365, Docker, Vim.
+    Content: Sono Andrea, qui condivido guide pratiche e soluzioni reali su Linux, Docker, Kubernetes e Microsoft 365, pensate per chi lavora ogni giorno con infrastrutture e automazione.
 
   socialIcons:
     - name: email
       url: mailto:hello@andreapozzato.com
     # url: www.andreapozzato.com/blog/index.xml
     #  url: https://www.andreapozzato.com/index.xml
-    # - name: linkedin
-    # url: https://www.linkedin.com/in/andreapozzato/
+    - name: linkedin
+      url: https://www.linkedin.com/in/andreapozzato/
     #- name: instagram
     #  url: "https://instagram.com/pzzt"
     #- name: stackoverflow
