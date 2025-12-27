@@ -5,6 +5,7 @@
 Questo spazio è un **Zettelkasten** digitale: una collezione di appunti, guide pratiche e soluzioni reali che raccolgo durante il mio lavoro e i miei studi.
 
 Qui troverai contenuti su:
+
 - **Linux** - Amministrazione sistema, troubleshooting e ottimizzazione
 - **Docker & Kubernetes** - Container orchestration, K3s e automazione
 - **Microsoft 365** - Exchange Online, gestione delle configurazioni e best practices
@@ -16,6 +17,3 @@ Non cerco di creare il tutorial perfetto, ma di documentare ciò che imparo gior
 ## Contatti
 
 - Web: [andreapozzato.com](https://www.andreapozzato.com)
-- Email: [hello@andreapozzato.com](mailto:hello@andreapozzato.com)
-- LinkedIn: [linkedin.com/in/andreapozzato](https://www.linkedin.com/in/andreapozzato)
-- GitHub: [@pzzt](https://github.com/pzzt)
