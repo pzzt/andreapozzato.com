@@ -7,7 +7,7 @@ slug: ""
 
 tags: [""]
 
-author: "Andrea"
+author: "Andrea Pozzato"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true
@@ -33,7 +33,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
-    URL: "https://github.com/pzzt/"
+    URL: "https://github.com/pzzt/andreapozzato.com/blob/main/content/blog/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
