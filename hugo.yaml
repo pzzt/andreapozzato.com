@@ -96,7 +96,7 @@ params:
     - name: github
       url: "https://github.com/pzzt"
     - name: cv
-      url: "cv.andreapozzato.com"
+      url: "https://cv.andreapozzato.com"
     #- name: telegram
     #   url: "https://"
 
