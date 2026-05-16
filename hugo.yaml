@@ -149,10 +149,14 @@ menu:
       name: 🔍
       url: /search/
       weight: 30
+    - identifier: CV
+      name: cv.andreapozzato.com
+      url: https://cv.andreapozzato.com
+      weight: 40
     - identifier: brainb.it
       name: brainb.it
       url: https://brainb.it
-      weight: 40
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
