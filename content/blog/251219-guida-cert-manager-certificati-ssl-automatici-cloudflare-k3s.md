@@ -11,7 +11,7 @@ author: "Andrea Pozzato"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true
-draft: true
+draft: false
 hidemeta: false
 comments: false
 # description: "Desc Text."
@@ -33,7 +33,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 editPost:
-    URL: "https://github.com/pzzt/"
+    URL: "https://github.com/pzzt/andreapozzato.com/blob/main/content/blog/251219-guida-cert-manager-certificati-ssl-automatici-cloudflare-k3s.md"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
