@@ -27,8 +27,8 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<img/009-c2.png>" # image path/url
-    alt: "<alt text>" # alt text
+    image: "img/009-c2.png" # image path/url
+    alt: "abstract" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
@@ -37,10 +37,9 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-## Il problema: Veeam non riesce a effettuare la Shadow Copy
+## Veeam non riesce a effettuare la Shadow Copy
 
 Quando un job di backup Veeam fallisce segnalando un errore nella creazione della *Shadow Copy* della macchina, la causa più comune è un malfunzionamento del Servizio Copia Shadow del Volume (VSS) di Windows.
-
 In particolare, se dal log di Veeam o verificando manualmente si riscontra un **VSS Writer State: [7]** (ovvero *Failed*), significa che uno o più writer di Windows sono bloccati in stato di errore e non permettono lo snapshot coerente della macchina.
 
 ## Procedura di risoluzione
@@ -87,7 +86,5 @@ Infine, ritorna sulla console di Veeam, lancia nuovamente il job di backup per l
 ### Suggerimento extra (Opzionale)
 
 Se hai molti writer in stato [7] e non vuoi riavviare l'intero server (e non si tratta del Writer di AD), puoi provare a riavviare il servizio **Volume Shadow Copy** (servizio *VSS* da `services.msc`). Questo spesso resetta tutti i writer allo stato stabile, ma attenzione: potrebbe causare un breve disservizio per le applicazioni che ne fanno uso in quel momento.
-
-```
 
 ## Note
