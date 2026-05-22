@@ -31,9 +31,9 @@ cover:
     alt: "abstract" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 editPost:
-    URL: "https://github.com/pzzt/andreapozzato.com/blob/main/content/blog/"
+    URL: "https://github.com/pzzt/andreapozzato.com/blob/main/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
