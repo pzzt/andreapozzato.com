@@ -1,6 +1,6 @@
 ---
 title:  'Guida Cert-Manager: Certificati SSL Automatici con Cloudflare su K3S'
-date: '2025-12-19T13:03:36+01:00'
+date: '2026-05-21T13:03:36+01:00'
 slug: "guida-cert-manager-certificati-ssl-automatici-cloudflare-k3s"
 # weight: 1
 # aliases: ["/first"]
