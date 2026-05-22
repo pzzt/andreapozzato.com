@@ -118,7 +118,7 @@ services:
     hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/pzzt/andreapozzato.com/blob/main/content/blog/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -155,6 +155,11 @@ menu:
       name: brainb.it
       url: https://brainb.it
       weight: 40
+    - identifier: CV
+      name: CV
+      url: https://cv.andreapozzato.com/
+      weight: 50
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
