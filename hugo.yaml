@@ -155,8 +155,8 @@ menu:
       name: brainb.it
       url: https://brainb.it
       weight: 40
-    - identifier: CV
-      name: CV Andrea Pozzato
+    - identifier: CV Andrea Pozzato
+      name: CV
       url: https://cv.andreapozzato.com/
       weight: 50
 
