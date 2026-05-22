@@ -94,7 +94,7 @@ params:
     #- name: stackoverflow
     #url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/pzzt"
+      url: "https://github.com/pzzt/"
     - name: cv
       url: "https://cv.andreapozzato.com"
     #- name: telegram
