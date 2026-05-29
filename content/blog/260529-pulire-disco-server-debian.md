@@ -1,5 +1,5 @@
 ---
-title:  'Come Pulire il Disco di Sistema su un Server Debian'
+title:  'Come pulire il disco di sistema su un server Debian'
 date: '2026-05-29T14:56:52+02:00'
 slug: "pulire-disco-server-debian"
 # weight: 1
