@@ -45,13 +45,13 @@ Questa guida illustra le procedure essenziali per liberare spazio su un server D
 
 ## 1. Controllare lo spazio disponibile sul disco
 
-Prima di procedere con la pulizia, è necessario analizzare lo stato di occupazione del disco. Il comando `df` fornisce una panoramica rapida. L'opzione `-h` (human-readable) rende le dimensioni leggibili (MB, GB), mentre `-T` mostra il tipo di filesystem.
+Prima di procedere con la pulizia è necessario analizzare lo stato del disco. Il comando `df` fornisce una panoramica rapida. L'opzione `-h` (human-readable) rende le dimensioni leggibili (MB, GB), mentre `-T` mostra il tipo di filesystem.
 
 ```bash
 df -hT
 ```
 
-Per capire quali directory consumano più spazio a livello di primo livello, è possibile ricorrere a `du`:
+Per capire quali directory consumano più spazio è possibile ricorrere a `du`:
 
 ```bash
 du -h --max-depth=1 / | sort -hr
@@ -138,7 +138,7 @@ Se l'output mostra versioni più vecchie rispetto a quella in uso, è possibile 
 sudo apt autoremove --purge
 ```
 
-> **Infobox: Capire l'output di dpkg**
+> **Capire l'output di dpkg**
 > Nell'output del comando `dpkg -l`, le prime due lettere di ogni riga indicano lo stato del pacchetto:
 >
 > * **`ii`**: Il pacchetto è installato e funzionante (Installed and Installable).
@@ -148,7 +148,7 @@ sudo apt autoremove --purge
 
 ## 6. Rimozione dei file di configurazione residui (tag rc)
 
-I pacchetti contrassegnati con "rc" non vengono rimossi completamente dal comando standard `apt remove`, poiché i file di configurazione vengono preservati. Per mantenere il sistema pulito ed eliminare tutti i file di configurazione residui presenti nel sistema, è possibile eseguire il seguente comando:
+I pacchetti contrassegnati con "rc" non vengono rimossi completamente dal comando standard `apt remove`, poiché i file di configurazione vengono preservati. Per mantenere il sistema pulito ed eliminare tutti i file di configurazione residui presenti nel sistema è possibile eseguire il seguente comando:
 
 ```bash
 sudo apt purge $(dpkg -l | grep '^rc' | awk '{print $2}')
