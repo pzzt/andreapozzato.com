@@ -32,7 +32,7 @@ cover:
     alt: "Nella fiction la fotografia non deve essere più bella della pubblicità" # alt text
     caption: "" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 editPost:
     URL: "https://github.com/pzzt/andreapozzato.com/blob/main/content/"
     Text: "Suggest Changes" # edit text
