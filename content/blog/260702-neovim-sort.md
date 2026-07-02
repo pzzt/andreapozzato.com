@@ -28,7 +28,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "img/260702-D089.png" # image path/url
+    image: "img/260702-089.png" # image path/url
     alt: "Nella fiction la fotografia non deve essere più bella della pubblicità" # alt text
     caption: "" # display caption under cover
     relative: false # when using page bundles set this to true
